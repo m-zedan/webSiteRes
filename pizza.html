@@ -1,0 +1,1028 @@
+
+<html>
+		<!DOCTYPE html>
+<head>
+	<title>nuddel</title>
+	<link rel="icon" href="img/core-img/favicon.ico">
+ <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.css">
+  
+  <link href="css/responsive/responsive.css" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="pizza.js"></script>
+
+
+    
+</head>
+<body>
+	<div id="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
+            <span class="cart-info__icon mr-lg-3"><i class="fas fa-shopping-cart"></i></span>
+            <p class="mb-0 text-capitalize"><span id="item-count">2 </span> items - $<span class="item-total">10.49</span></p>
+          </div>
+<section class="menu-details col-6" style="background-color: #ddd">
+	<h2>Pizza</h2>
+<table class="table table-hover accordion" id="table" >
+	<tr><th>Speise Nr</th>
+	<th>Name</th>
+	<th>Bescheibung</th>
+	<th>Prise klein</th>
+	<th>Prise mittlere</th>
+	<th>Prise party</th>
+</tr>
+	<tbody>
+		<!--row-->
+		<tr id="headingOn">
+			<td>1</td>
+			<td>Margarita</td>
+			<td>mit käse und und und und </td>
+			<td ><button class="btn btn-info info-small" style="cursor: pointer;"  data-target="#weitereeilag" aria-controls="collapseOne" >4,00€</button>
+			</td>
+			<td><button class="btn btn-info info-large" style="cursor: pointer;"   data-target="#weitereeilag" aria-controls="collapseOne">5,00€</button></td>
+			<td><button class="btn btn-info info-party" style="cursor: pointer;"   data-target="#weitereeilag" aria-controls="collapseOne">14,50€</button></td>
+		
+		</tr>
+		
+	
+		<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+				<td><input type="checkbox" class="doners"> Dönerfleisch 0,60€ </td><td>Scampi &nbsp; &nbsp; &nbsp; 0,60€   <input class="scampis" type="checkbox" name="" onselect=""></td><td>Frutti di mari 0,60€ <input class="fruttis" type="checkbox" name="" onselect=""></td><td>Knoblauch  0€<input class="knobs" type="checkbox" name="" onselect=""></td><td>scharfe Sauce 0€ <input class="scarfes" type="checkbox" name="" onselect=""></td><td><button class="btn btn-primary"></button></td>
+		</tr>
+ <!--end row-->
+ <!--row start-->
+		<tr >
+			<td>2</td>
+			<td>Salami </td>
+			<td>mit Salami und und und und </td>
+			<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">4,00€</button>
+			</td>
+			<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,50€</button></td>
+			<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">18,50€</button></td>
+			
+		</tr>
+		<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+			
+		</tr>
+	
+ <!--row end-->
+  <!--row start-->
+  <tr >
+	<td>3</td>
+	<td> Prociutto	</td>
+	<td>mit Truthahschicken	</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">5,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,50€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">19,50€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+  <!--row start-->
+  <tr >
+	<td>4</td>
+	<td> Funghi</td>
+	<td>mit fr.champignons</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">5,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">17,50€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>5</td>
+	<td>Cipolla</td>
+	<td>mit Zwiebeln</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,00€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">17,50€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+  <tr >
+	<td>6</td>
+	<td> Bolognese</td>
+	<td>mit Hackfleischsause</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,00€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">19,50€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>7</td>
+	<td> Hawaii</td>
+	<td>mit Truthhahnschinken,Ananas</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,00€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">22,00€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>8</td>
+	<td> Diavolo</td>
+	<td>mit Salami ,Peperoni</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,00€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">19,50€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>9</td>
+	<td> Tonno</td>
+	<td>mit Thunfisch</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,50€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">18,00€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>10</td>
+	<td>Athen</td>
+	<td>mit Spinat,weichkäse
+	</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,50€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,50€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">22,00€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>11</td>
+	<td> Mista</td>
+	<td>mit fr.champignons, Truthhahnschincken, Salami</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,50€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">22,00€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>12</td>
+	<td> Arrabiata</td>
+	<td>mit Peperoni, Paprika, Oliven, fr Tomaten, Zwiebeln</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,00€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">20,50€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>13</td>
+	<td>Vegetaria</td>
+	<td>mit fr.champignons, Spinat, Broccoli, Zwiebeln, Mais, Paprika</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,50€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">22,50€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>14</td>
+	<td> Gusto Chiaro</td>
+	<td>mit fr. Tomaten, Artischocken, Oliven</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,00€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">20,50€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>15</td>
+	<td> Quattro Formaggio</td>
+	<td>mit vier Versch.Käsesorten</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,00€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">20,50€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>16</td>
+	<td> Calzone1</td>
+	<td>mit fr. Champignons, Thunfisch, TruthhahnSchinken
+</td>	
+	</td>
+	<td></td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,00€</button></td>
+	
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>17</td>
+	<td> Calzone2</td>
+	<td>mit Spinat, Weichkäse, Peperoni, Knoblauch</td>	
+	</td>
+	<td></td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,00€</button></td>
+	
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>18</td>
+	<td> Calzone3</td>
+	<td>mit Thunfisch, Fr. Champignons, Truthhahnschinken, Salami,Zwiebeln</td>	
+	</td>
+	<td></td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,00€</button></td>
+	
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>19</td>
+	<td> Calzone4</td>
+	<td>mit Dönerfleisch, Paprika, fr.champignons, Zwiebeln</td>	
+	</td>
+	<td></td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,00€</button></td>
+	
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>20</td>
+	<td> Calzone 5</td>
+	<td>mit Dönerfleisch, fr.Zwiebeln</td>	
+	</td>
+	<td></td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">8,00€</button></td>
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>21</td>
+	<td> Pomodori Freschi</td>
+	<td>mit Mozzrella, fr.Tomaten, Ruccola</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,50€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">19,50€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>22</td>
+	<td>Quatto Stagioni</td>
+	<td>mit Champignon, Truthahschinken, Salami, Thunfisch</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,50€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">21,50€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>24</td>
+	<td>Creme Fraiche 1</td>
+	<td>mit Creme Fraiche, Turthahnschinken,Zwiebeln,Mozzarella</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,50€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">21,50€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>25</td>
+	<td> Creme Fraiche 2</td>
+	<td>mit Creme Fraiche, Lachs, Spinat, Mozzarella</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">8,00€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">24,00€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>26</td>
+	<td> Italia	</td>
+	<td>mit Turthahnschinken, Spinat, Gorgontola</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,50€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">21,50€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>27</td>
+	<td> Germany</td>
+	<td>mit Salami , Turthahnschinken, fr.Champignons, Thunfisch, Ei</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,50€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,50€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">22,50€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>28</td>
+	<td> Rustica
+	</td>
+	<td>mit Spinat, Ei, turthahnschinken, Paprika, Knoblauch
+	</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,00€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">22,50€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>30</td>
+	<td> Mavera</td>
+	<td>mit Salami, Zwiebeln, Thunfisch</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,00€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">22,50€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<!-- has to be modified this field has deferent ingredient-->
+<tr >
+	<td>00</td>
+	<td> Dellmanns Pizza</td>
+	<td>Jede weitere Zutat 0,80€ (normal)/0,60€ (klein) /3€ (Familenpizza)</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,50€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">19,50€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>32</td>
+	<td>Grande</td>
+	<td>mit Salami, Thunfisch, Zwiebeln, Sardellen, Oliven</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,50€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">21,00€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>33</td>
+	<td> Turka</td>
+	<td>mit Sucuk, Zwiebeln, Peperoni, Weichkäse</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,50€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,50€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">24,00€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>34</td>
+	<td> Dönner-Pizza 1</td>
+	<td>mit Dönerfleisch, Zwiebeln</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,50€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">22,50€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>35</td>
+	<td> Dönner-Pizza 2</td>
+	<td>mit fr.Champignons, Dönnerfleisch, Paprika</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,50€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">8,50€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">24,00€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>36</td>
+	<td> Dönner Spezial</td>
+	<td>mit fr.Champignons, Dönerfleisch,Zwiebeln, Sahnsauce</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,50€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">9,50€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">26,00€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->		
+<!--row start-->
+<tr >
+	<td>37</td>
+	<td> Holland 1</td>
+	<td>mit fr.Champignons, Dönerfleisch, Sause Hollandaise</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">8,00€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">24,00€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>38</td>
+	<td> Holland 2</td>
+	<td>mit Salami, Broccoli, Sause Hollandaise</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">8,00€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">24,00€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>39</td>
+	<td> Marina</td>
+	<td>mit Meerfüchten, Knoblauch</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">7,50€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">22,50€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>40</td>
+	<td> Delizioso</td>
+	<td>Scampi, Spinat, Knoblauch</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">8,00€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">24,00€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>41</td>
+	<td> Mediterrana</td>
+	<td>mit Scampi, Sahnesause, fr.Champignons, Knoblauch</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">8,00€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">24,00€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>45</td>
+	<td> Salmone Spinaci</td>
+	<td>mit Lachs, Spinat Mozzarella, Knoblauch</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">8,00€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">24,00€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>48</td>
+	<td> Mozzarella Spinaci</td>
+	<td>mit Mozzarella, Spinat, Knoblauch</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,50€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">18,00€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>49</td>
+	<td> Hoolandaise Pollo</td>
+	<td>mit Sauce Hollandaise, Putenfleisch, Broccoli</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">8,00€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">24,00€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+<!--row start-->
+<tr >
+	<td>61</td>
+	<td> Scampi Spezial</td>
+	<td>mit Scampi, Broccoli, fr.Champignons, Knoblauch, Sahnesauce</td>
+	<td><button class="btn btn-info info-small" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">6,00€</button>
+	</td>
+	<td><button class="btn btn-info info-large" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">8,00€</button></td>
+	<td><button class="btn btn-info info-party" style="cursor: pointer;" data-target="#weitereeilag"aria-controls="collapseOne">24,00€</button></td>
+	
+</tr>
+<tr id="weitereeilag" class="zutaten collapse  small"  data-parent="#table">
+	
+</tr>
+
+<!--row end-->
+
+</tbody>	
+</table>		
+</section>
+<section class="position-relative" style="z-index: 9999; margin-top:100%;  margin-right:0px;margin-left:70%; ">
+	<div class="cartitems" style="position: relative; min-height:50px;">
+	  <table class="table table-hover">
+	  <tr><th>product</th>
+	<th>extra zutaten</th>
+	<th>preis</th>
+  <th ></th></tr>
+  <tbody id="cartitem">
+	<tr id='total'><th>Brutto</th>
+		<th></th>
+		<th></th>
+	  <th ></th></tr>
+  </tbody>
+  
+  </table
+  ></div>
+	<div class="inline" > 
+	  <button class="btn btn-primary">check out</button>
+	</div>
+  </section>
+  
+  
+  </body>
+   
+  <script>
+	  var toatlprice=0;
+		const extra={};
+			extra.doner=false;
+			extra.scampi=false;
+			extra.dimari=false;
+			extra.knoblauch=false;
+			extra.scharfe=false;
+			extra.price=0;
+			extra.zutatPrice=0;
+
+		const size={};
+		size.klein=false;
+		size.normal=false;
+		size.party=false;
+		(function(){
+		  			const addToCart=document.querySelectorAll(".btn-success");
+					addToCart.forEach(function(btn){
+				btn.addEventListener("click",function(event){
+					const name=event.target.parentElement.parentElement.children[1].innerHTML;
+					const price=event.target.innerHTML;
+					
+				const items={};
+				let itemName=event.target.parentElement.parentElement.children[1].textContent;
+			   items.name=itemName.trim();
+items.price=priceConvert(event.target.textContent.trim());
+			   
+			   
+			   
+			   toatlprice+=items.price;
+			   let cartItem=document.createElement('tr');
+			   cartItem.innerHTML='<td>'+items.name+'</td><td> ohne</td>  <td>'+items.price.toFixed(2)+"€"+'</td> <td > <span class="fas fa-trash" style="cursor: pointer;" onclick="deleteItem(this)"></td></tr> ';
+			  const cart=document.getElementById('cartitem');
+			//  console.log(toatlprice);
+			  var totalcart=document.getElementById('total');
+			  totalcart.children[2].textContent=toatlprice;
+			  
+			  
+			  cart.insertBefore(cartItem,totalcart);
+			  });
+			});
+		
+		})();
+ 
+  
+		function doner(v){
+		extra.zutatPrice=priceConvert(v.parentElement.children[0].textContent.trim());
+			if(v.checked){
+		extra.doner=true;
+		  extra.price+=priceConvert(v.parentElement.children[0].textContent.trim());
+		//console.log(extra.price);
+		v.parentElement.parentElement.children[5].children[1].textContent=DecPoint(extra.price.toFixed(2)+'€')+"€";
+	}
+		 else{extra.doner=false;
+		  extra.price-= priceConvert(v.parentElement.children[0].textContent.trim());
+		  v.parentElement.parentElement.children[5].children[1].textContent=DecPoint(extra.price.toFixed(2)+'€')+"€";
+		}
+		//console.log(extra.doner);
+		}
+		function scampi(v){
+			extra.zutatPrice=priceConvert(v.parentElement.children[0].textContent.trim());
+			if(v.checked){
+	extra.scampi=true;
+	extra.price+=priceConvert(v.parentElement.children[0].textContent.trim());
+		//console.log(extra.price);
+		v.parentElement.parentElement.children[5].children[1].textContent=DecPoint(extra.price.toFixed(2)+'€')+"€";
+	}
+		 else{extra.scampi=false;
+			extra.price-= priceConvert(v.parentElement.children[0].textContent.trim());
+		  v.parentElement.parentElement.children[5].children[1].textContent=DecPoint(extra.price.toFixed(2)+'€')+"€";
+		}
+		}
+		function dimari(v){
+		if(v.checked){
+			extra.zutatPrice=priceConvert(v.parentElement.children[0].textContent.trim());
+		extra.dimari=true;
+		extra.price+=priceConvert(v.parentElement.children[0].textContent.trim());
+		//console.log(extra.price);
+		v.parentElement.parentElement.children[5].children[1].textContent=DecPoint(extra.price.toFixed(2)+'€')+"€";
+	}
+		 else{
+			 extra.dimari=false;
+			 extra.price-= priceConvert(v.parentElement.children[0].textContent.trim());
+		  v.parentElement.parentElement.children[5].children[1].textContent=DecPoint(extra.price.toFixed(2)+'€')+"€";
+		 }
+		}
+		function knoblauch(v){
+			extra.zutatPrice=priceConvert(v.parentElement.children[0].textContent.trim());
+			if(v.checked){
+		extra.knoblauch=true;
+		extra.price+=priceConvert(v.parentElement.children[0].textContent.trim());
+		//console.log(extra.price);
+		v.parentElement.parentElement.children[5].children[1].textContent=DecPoint(extra.price.toFixed(2)+'€')+"€";
+	}
+		 else{extra.knoblauch=false;
+			extra.price-= priceConvert(v.parentElement.children[0].textContent.trim());
+		  v.parentElement.parentElement.children[5].children[1].textContent=DecPoint(extra.price.toFixed(2)+'€')+"€";
+		}
+		}
+		function scharfe(v){
+			extra.zutatPrice=priceConvert(v.parentElement.children[0].textContent.trim());
+
+			if(v.checked){
+		extra.scharfe=true;
+		extra.price+=priceConvert(v.parentElement.children[0].textContent.trim());
+		//console.log(extra.price);
+		v.parentElement.parentElement.children[5].children[1].textContent=DecPoint(extra.price.toFixed(2)+'€')+"€";
+		}
+		 else{
+			 extra.scharfe=false;
+			 extra.price-= priceConvert(v.parentElement.children[0].textContent.trim());
+		  v.parentElement.parentElement.children[5].children[1].textContent=DecPoint(extra.price.toFixed(2)+'€')+"€";
+			}
+		}
+(function(){
+const small=document.querySelectorAll('.info-small');
+small.forEach(function(btn){
+	btn.addEventListener('click',function(event){
+document.querySelectorAll('.collapse').hide;
+extra.price=priceConvert(event.target.textContent);
+extra.scampi=false;
+			extra.dimari=false;
+			extra.knoblauch=false;
+			extra.scharfe=false;
+			extra.doner=false;
+			extra.zutatPrice=0;
+			size.klein=true;
+			size.normal=false;
+			size.party=false;
+		$(event.target.parentElement.parentElement.nextElementSibling).collapse('show');
+		event.target.parentElement.parentElement.nextElementSibling.innerHTML=' <td> Dönerfleisch <p>0,60€ </p><input type="checkbox"  onclick="doner(this)"></td><td>Scampi &nbsp; &nbsp; &nbsp; <p>0,60€</p><input  type="checkbox" name="" onclick="scampi(this)"></td><td>Frutti di mari<p> 0,60€ </p><input class="fruttis" type="checkbox" name="" onclick="dimari(this)"></td><td>Knoblauch <p> 0€</p><input class="knobs" type="checkbox" name="" onclick="knoblauch(this)"></td><td>scharfe Sauce<p> 0€</p> <input class="scarfes" type="checkbox" name="" onclick="scharfe(this)"></td><td><p>Einfügen</p><button class="btn btn-warning" onclick="addPizzatoCart(this)">'+DecPoint(extra.price.toFixed(2))+'€'+'</button></td>';
+	})
+})
+
+const large=document.querySelectorAll('.info-large');
+const party=document.querySelectorAll('.info-party');
+large.forEach(function(btn){
+	btn.addEventListener('click',function(event){
+		document.querySelectorAll('.collapse').hide;
+		extra.price=priceConvert(event.target.textContent.trim());
+		extra.doner=false;
+			extra.scampi=false;
+			extra.dimari=false;
+			extra.knoblauch=false;
+			extra.scharfe=false;
+			extra.zutatPrice=0;
+			size.klein=false;
+			size.normal=true;
+			size.party=false;
+			
+		$(event.target.parentElement.parentElement.nextElementSibling).collapse('show');
+		event.target.parentElement.parentElement.nextElementSibling.innerHTML='	<td id="doner">Dönerfleisch <p> 0,90€</p> <input type="checkbox" name=""  onclick="doner(this)" ></td><td>Scampi  &nbsp; &nbsp; &nbsp;<p> 0,90€</p>   <input type="checkbox" name=""  onclick="scampi(this)"></td><td>Frutti di mari <p>0,90€</p> <input type="checkbox" name="" onclick="dimari(this)"></td><td>Knoblauch  <p>0€</p><input type="checkbox" name="" onclick="knoblauch(this)"></td><td>scharfe Sauce <p>0€</p> <input type="checkbox" name="" onclick="scharfe(this)"></td><td><p>Einfügen</P><button class="btn btn-warning" onclick="addPizzatoCart(this)">'+DecPoint(extra.price.toFixed(2))+'€'+'</button></td>';	})
+		});
+party.forEach(function(btn){
+
+	btn.addEventListener('click',function(event){
+		document.querySelectorAll('.collapse').hide;
+		extra.price=priceConvert(event.target.textContent.trim());
+		console.log(extra.price);
+	extra.doner=false;
+			extra.scampi=false;
+			extra.dimari=false;
+			extra.knoblauch=false;
+			extra.scharfe=false;
+			extra.zutatPrice=0;
+			size.klein=false;
+			size.normal=false;
+			size.party=true;
+			
+		 $(event.target.parentElement.parentElement.nextElementSibling).collapse('show');
+		event.target.parentElement.parentElement.nextElementSibling.innerHTML='	<td id="doner">Dönerfleisch <p>3,50€</p> <input type="checkbox" name=""  onclick="doner(this)"></td><td>Scampi  &nbsp; &nbsp; &nbsp; <p>3,50€ </p>  <input type="checkbox" name=""  onclick="scampi(this)"></td><td>Frutti di mari <p>3,50€ </p><input type="checkbox" name="" onclick="dimari(this)"></td><td>Knoblauch <p> 0€</p><input type="checkbox" name="" onclick="knoblauch(this)"></td><td>scharfe Sauce <p>0€</p> <input type="checkbox" name="" onclick="scharfe(this)"></td><td><p>Einfügen</p><button class="btn btn-warning" onclick="addPizzatoCart(this)">'+DecPoint(extra.price.toFixed(2))+'€'+'</button></td>';	
+		})
+});
+
+})();
+function priceConvert(v){
+	var itemprice=v;
+	  if(itemprice[1]==','){
+			   var intPrice=parseInt(itemprice[0]);
+			   var decprice=parseFloat("0."+(itemprice)[2]+(itemprice)[3]);}
+			   else{ var intPrice=parseInt(itemprice[0]+itemprice[1]);
+			   var decprice=parseFloat("0."+(itemprice)[3]+(itemprice)[4]);}
+			   var priceNO=intPrice+decprice;
+			   return priceNO;
+}
+function DecPoint(v){
+	var itemprice=v;
+	  if(itemprice[1]=='.'){
+			   var intPrice=parseInt(itemprice[0]);
+			   var decprice=parseFloat("0."+(itemprice)[2]+(itemprice)[3]);
+			   return intPrice+','+itemprice[2]+itemprice[3];
+			}
+			   else{ var intPrice=parseInt(itemprice[0]+itemprice[1]);
+			   var decprice=parseFloat("0."+(itemprice)[3]+(itemprice)[4]);
+			   return intPrice+','+itemprice[3]+itemprice[4];}
+
+}
+function zutaten(){
+var content="";
+if(extra.doner){
+content+="<p>Dönerfleisch &nbsp;"+DecPoint(extra.zutatPrice.toFixed(2))+'€</p>';
+}
+if(extra.scampi){
+	content+="<p>Scampi &nbsp;"+DecPoint(extra.zutatPrice.toFixed(2))+'€</p>';
+}
+if(extra.dimari){
+	content+="<p>Frutti di Mari &nbsp;"+DecPoint(extra.zutatPrice.toFixed(2))+'€</p>';
+}
+if(extra.knoblauch){
+	content+="<p>Knoblauch &nbsp;"+'0,00€</p>';
+}
+if(extra.scharfe){
+	content+="<p>Scharefe Sauce &nbsp;"+'0,00€</p>';
+}
+if(!extra.doner&&!extra.dimari&&!extra.knoblauch&&!extra.scampi&&!extra.scharfe){	content+="<p>Ohne<p>";
+}
+
+
+return  content;
+}
+function pizzatype(){
+	if(size.klein){return 'klein';}
+	if(size.normal){return 'mittlere';}
+	if(size.party){return 'party';}
+}
+function addPizzatoCart(evetn){
+	const items={};
+				let itemName=event.target.parentElement.parentElement.previousElementSibling.children[1].textContent;
+				items.name=itemName.trim();
+			  
+			  items.price=priceConvert(event.target.textContent.trim());
+			  //console.log(event.target.textContent);
+			  //console.log(items.price);
+			  toatlprice+=items.price;
+			  
+			  let cartItem=document.createElement('tr');
+			   cartItem.innerHTML='<td>'+items.name+' ('+pizzatype()+' Pizza'+')'+'</td><td>'+zutaten()+'</td>  <td>'+DecPoint(items.price.toFixed(2)+'€')+"€"+'</td> <td > <span class="fas fa-trash" style="cursor: pointer;" onclick="deleteItem(this)"></span></td></tr> ';	
+			 
+			   const cart=document.getElementById('cartitem');
+			
+			  var totalcart=document.getElementById('total');
+			  totalcart.children[2].textContent=toatlprice.toFixed(2)+'€';
+			  cart.insertBefore(cartItem,totalcart); 
+			   /*
+				
+
+			   
+			   
+			   
+			   
+			   
+			  */
+}
+function deleteItem(v){
+
+var price=priceConvert(v.parentElement.previousElementSibling.textContent);
+toatlprice-=price;
+var totalcart=document.getElementById('total');
+			  totalcart.children[2].textContent=toatlprice.toFixed(2)+'€';
+			  v.parentNode.parentNode.parentNode.removeChild(v.parentNode.parentNode);
+			  
+}
+</script>
+<script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap-4 js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/others/plugins.js"></script>
+    <!-- Active JS -->
+    <script src="js/active.js"></script>
+</html>

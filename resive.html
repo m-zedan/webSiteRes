@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+ <html>
+     <head><title>receive</title></head>
+
+     <body>
+         <form action="transfer.php" method="GET">
+    
+         </form>
+     </body>
+     <script>
+     var xhr=new XMLHttpRequest();
+     xhr.open('POST','transfer.php',true);
+     xhr.onload=function(){
+         console.log(this.responseText);
+     }
+     xhr.send()
+     </script>
+ </html>

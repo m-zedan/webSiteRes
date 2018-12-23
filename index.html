@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Aladdin Restaurant &amp; Bergisch Gladbach</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="stylesheet" href="css/all.css">
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive/responsive.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Responsive CSS -->
+    <link href="css/responsive/responsive.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-img bg-overlay" style="background-image: url(img/bg-img/alaa.gif);">
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="dorne-load"></div>
+    </div>   
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area" id="header">
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="col-12 h-100">
+                    <nav class="h-100 navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dorneNav" aria-controls="dorneNav" aria-expanded="false" aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
+                        <!-- Nav -->
+                        <div class="collapse navbar-collapse" id="dorneNav">
+                            <ul class="navbar-nav mr-auto" id="dorneMenu">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Startseite <span class="sr-only">(current)</span></a>
+                                </li>
+                               
+                              
+                               
+                            </ul>
+                            <div class="opening-hour col-sm-4  border border-white rounded">
+                            <h4 style="text-align:center">öffnungszeiten: Mon-Son: 10:00 - 22:00</h4>
+                            <h6 style="text-align:center">TEL: 02202-709 40 40/1</h6>
+                            <h6 style="text-align:center">Hauptstraße 362, 51465 Bergisch Gladbach</h6>                        
+                            </div>
+                            <!-- Search btn -->
+                            <div class="dorne-search-btn">
+                                <a id="search-btn" href="#"><i class="fa fa-search" aria-hidden="true"></i> Suchen</a>
+                            </div>
+                            <!-- Signin btn -->
+                            <div class="dorne-signin-btn">
+                                <a href="#">Sign in  Oder Registerieren</a>
+                            </div>
+                            <!-- Add listings btn -->
+                            
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Welcome Area Start ***** -->
+    <section class="dorne-welcome-area " >
+           
+            <div class="container h-100"  >
+                
+                <div class="row h-100 align-items-top justify-content-center" >
+                       
+                    <div class="col-12 col-md-9 " >                
+                        <!-- Hero Search Form -->
+                        <div class="hero-search-form"  >
+                            <!-- Tabs -->
+                           
+                            <!-- Tabs Content -->
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-plz" role="tabpanel" aria-labelledby="nav-places-tab">
+                                    <h6>Bitte Postleitzal Auswählen</h6>
+                                    <label style="color:red" id="plz"></label>
+                                   <form>
+                                        <select class="custom-select" id="mySelect" onchange="deliveryCost(mySelect)" >
+                                            <option selected id="no-select"  value="0">Ihr Standort</option>
+                                            <option value="1" >51465</option>
+                                            <option value="2" >51463</option>
+                                            <option value="3" >51462</option>
+                                        </select >
+                                       <div>
+                                            <button type="button" class="btn dorne-btn" id="btn-sub" onclick="selection(mySelect)" ><i class="fa fa-search pr-2" aria-hidden="true"></i> Weiter</button>
+                                            <button type="button" class="btn selbst-btn btn dorne-btn" onclick="location.href='Categery.html'"><i  class="fa" aria-hidden="true"></i> Oder Selbst abholen</button>
+                                      </div>
+                                    </form>
+                                    <p style="margin-top: 20px ;color:#fff">Für Fragen oder sonder Bestellung stehen wir Ihnen gern telefonisch zur verfügung  </p>
+                                    
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                function  selection(i){
+                    if(i.value=="0"){
+                    document.getElementById("plz").innerHTML="bitte PLZ eingeben";}
+                    if (i.value=='1'|| '2' || '3') {
+                       
+                       window.location.replace("Categery.html");
+                    }
+                       
+               
+                }
+                function deliveryCost(i){
+                  if(i.value=="0"){
+                    document.getElementById("plz").innerHTML="";}
+                    if (i.value=='1') {
+                       document.getElementById("plz").innerHTML="lieferung frei"; 
+                    }
+                        if (i.value=='2') {
+                            document.getElementById("plz").innerHTML="lieferung  kostet 2€";
+                        }
+                            if (i.value=='3') {
+                                document.getElementById("plz").innerHTML="Lieferung kostet 2€";
+                            }
+                             /*if (i.value=='3') {
+                                document.getElementById("plz").innerHTML="333";
+                            }*/
+                }
+            </script>
+               
+    
+           
+
+        <!-- Hero Social Btn -->
+        <!-- <div class="hero-social-btn">
+            <div class="social-title d-flex align-items-center">
+                <h6>Follow us on Social Media</h6>
+                <span></span>
+            </div>
+            <div class="social-btns">
+                <a href="#"><i class="fa fa-linkedin" aria-haspopup="true"></i></a>
+                <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-haspopup="true"></i></a>
+                <a href="#"><i class="fa fa-facebook" aria-haspopup="true"></i></a>
+            </div>
+        </div>-->
+    </section>
+    <!-- ***** Welcome Area End ***** -->      
+
+    <!-- ****** Footer Area Start ****** -->
+    <footer class="dorne-footer-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 d-md-flex align-items-center justify-content-between">
+                    <div class="footer-text">
+                        <p>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Malek Zedan <i aria-hidden="true"></i> by <a href="http://www.wd-de.com" target="_blank">Walid Online</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                    <div class="footer-social-btns">
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-haspopup="true"></i></a>
+                        <a href="#"><i class="fa fa-facebook" aria-haspopup="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ****** Footer Area End ****** -->
+
+    <script src="pizza.js"> </script>
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap-4 js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/others/plugins.js"></script>
+    <!-- Active JS -->
+    <script src="js/active.js"></script>
+</body>
+
+</html>

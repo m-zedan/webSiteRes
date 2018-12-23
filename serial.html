@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head> <title>mysql</title></head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <body>
+        
+        
+        <button id="submit"> submit</button></form>
+    </body>
+    <script>
+document.getElementById('submit').addEventListener('click', function(e) {
+    var emps=[];
+    var emp1={};
+    emp1.id=1;
+    emp1.name='muntaser';
+    emps.push(emp1);
+    var emp2={};
+    emp2.id=2;
+    emp2.name='malik';
+    emps.push(emp2);
+    console.log(JSON.stringify(emps));
+ 
+
+});
+
+
+    </script>
+</html>

@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+        <!-- Title -->
+        <title>Aladdin Restaurant &amp; Bergisch Gladbach</title>
+    
+        <!-- Favicon -->
+        <link rel="icon" href="img/core-img/favicon.ico">
+    
+        <!-- Core Stylesheet -->
+        <link href="style.css" rel="stylesheet">
+    
+        <!-- Responsive CSS -->
+        <link href="css/responsive/responsive.css" rel="stylesheet">
+        <!-- Slider CSS -->
+        <link rel="stylesheet" type="text/css" href="slick/slick.css">
+      <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+      
+    <script>
+
+        $(document).ready(function() {
+           //nuddel menu
+             $("#butt-nudel").click(function() {
+         $(".single-catagory-area").removeClass("active");
+
+
+                $(".container-menu").hide();
+                $("#nuddel-content").show();
+                 $(nuddell).addClass("active");
+             });
+         //pizza menu
+            $('#butt-pizza').click(function() {
+         $(".single-catagory-area").removeClass("active");
+          $('#pizza').addClass("active");
+                 $('.container-menu').hide();
+                 $('#pizza-content').show();
+
+             });
+//salat menu
+       $("#butt-salat").click(function() {
+         $(".single-catagory-area").removeClass("active");
+          $('#salat').addClass("active");
+                $(".container-menu").hide();
+                $("#salat-content").show();
+                
+                
+             });
+         //breakfast menu
+            $('#butt-fruhstuck').click(function() {
+         $(".single-catagory-area").removeClass("active");
+          $('#breakfast').addClass("active");
+                 $('.container-menu').hide();
+                 $('#fruhstuck-content').show();
+             });
+            //baguettes
+       $("#butt-baguettes").click(function() {
+         $(".single-catagory-area").removeClass("active");
+          $('#baguettes').addClass("active");
+                $(".container-menu").hide();
+                $("#baguettes-content").show();
+                
+                
+             });
+       //chicken and grill menu
+           $('#butt-grill').click(function() {
+         $(".single-catagory-area").removeClass("active");
+          $('#grill').addClass("active");
+                 $('.container-menu').hide();
+                 $('#grill-content').show();
+             });
+         //doner menu
+            $('#butt-doner').click(function() {
+         $(".single-catagory-area").removeClass("active");
+          $('#doner').addClass("active");
+                 $('.container-menu').hide();
+                 $('#doner-content').show();
+             });
+            //desert menu
+       $("#butt-speise").click(function() {
+         $(".single-catagory-area").removeClass("active");
+          $('#speise').addClass("active");
+                $(".container-menu").hide();
+                $("#speise-content").show();
+                
+                
+             });
+         //drinks menu
+            $('#butt-drink').click(function() {
+         $(".single-catagory-area").removeClass("active");
+          $('#drinks').addClass("active");
+                 $('.container-menu').hide();
+                 $('#drink-content').show();
+             });
+         
+            /*  $('#btn-video').click(function() {
+         
+                 $('.container').hide();
+                 $('#video_container').show();
+             });
+         
+             $('#btn-giveaway').click(function() {
+         
+                 $('.container').hide();
+                 $('#giveaway_container').show();
+            });*/
+         
+        });
+    </script>
+
+
+</head>
+
+<body class="bg-img bg-overlay" style="background-image: url(img/bg-img/alaa.gif); min-height: 100%; background-attachment: fixed;   background-repeat:no-repeat; ">
+<!--header area starts here-->
+   <!-- Preloader -->
+   <div id="preloader">
+        <div class="dorne-load"></div>
+    </div>
+
+    <!-- ***** Search Form Area ***** -->
+    <div class="dorne-search-form d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="search-close-btn" id="closeBtn">
+                        <i class="pe-7s-close-circle" aria-hidden="true"></i>
+                    </div>
+                    <form action="#" method="get">
+                        <input type="search" name="Suche" id="search" placeholder="Produkte suchen">
+                        <input type="submit" class="d-none" value="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area"  id="header " style="position:relative;">
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="col-12 h-100">
+                    <nav class="h-100 navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dorneNav" aria-controls="dorneNav" aria-expanded="false" aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
+                        <!-- Nav -->
+                        <div class="collapse navbar-collapse" id="dorneNav">
+                            <ul class="navbar-nav mr-auto" id="dorneMenu">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="index.html">Startseite <span class="sr-only">(current)</span></a>
+                                </li>
+                               
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menü <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                        <a class="dropdown-item" href="index.html">Menü 1</a>
+                                        <a class="dropdown-item" href="explore.html">Menü 2</a>
+                                        <a class="dropdown-item" href="listing.html">Menü 3</a>
+                                        <a class="dropdown-item" href="single-listing.html">Menü 4</a>
+                                        
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Kontakt</a>
+                                </li>
+                            </ul>
+                            <div class="opening-hour col-sm-4  border border-white rounded">
+                            <h4 style="text-align:center">öffnungszeiten: Mon-Son: 10:00 - 22:00</h4>
+                            <h6 style="text-align:center">TEL: 02202-709 40 40/1</h6>
+                            <h6 style="text-align:center">Hauptstraße 362, 51465 Bergisch Gladbach</h6>                        
+                            </div>
+                            <!-- Search btn -->
+                            <div class="dorne-search-btn">
+                                <a id="search-btn" href="#"><i class="fa fa-search" aria-hidden="true"></i> Suchen</a>
+                            </div>
+                            <!-- Signin btn -->
+                            <div class="dorne-signin-btn">
+                                <a href="#">Sign in  Oder Registerieren</a>
+                            </div>
+                            <!-- Add listings btn -->
+                            
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+   
+<!--header ended-->
+<div class="col-2 container-fluid h-100" style="  padding: 0;  float: left;">
+            
+        <div >
+                <div class="col-12" style="padding:0%;" >
+                    <div class="all-catagories" role="group" aria-label="Basic example" >
+                        <ul style="padding-left: 0%;">
+                            <!-- Single Catagory Area -->
+                            <li class="col-12 col-sm-6 col-md " style="padding-left: 0%;">
+                                <a href="#"  id="butt-pizza">
+                                <div class="single-catagory-area active wow fadeInLeftBig" id="pizza" data-wow-delay="0.2s">
+                                    
+                                    <table class="catagory-content">
+                                        <tr >
+                                           <th style="margin-right:10px !important"><img src="img/core-img/icon-pizza.png" alt=""></th>
+                                          <th style="margin-left:10px !important" > 
+                                              
+                                            <h6>Pizza & Gebäck</h6>
+                                              
+                                          </th>
+                                        </tr >
+                                    </table>
+                                    <span class="sr-only">(current)</span>
+                                </div>
+                              </a>
+                            </li>
+                            <!-- Single Catagory Area -->
+                            <li class="col-2 col-sm-6 col-md" style="padding-left: 0%;">
+                                <a href="#" id="butt-nudel" >
+                                <div class="single-catagory-area wow fadeInLeftBig" id="nuddell" data-wow-delay="0.4s">
+                                    <table class="catagory-content">
+                                        <tr >
+                                           <th style="margin-left:5px; margin-right:5px"><img src="img/core-img/icon-nudel.png" alt=""></th>
+                                           <th style="margin-left:5px; margin-right:5px"> 
+                                                <a href="#">
+                                                 <h6>Nuddel & Überbacken</h6>
+                                               </a>
+                                           </th>
+                                        </tr>                              
+                                    </table>
+                                </div>
+                                </a>
+                            </li>
+                            <!-- Single Catagory Area -->
+                            <!--Salat category button-->
+                            <div class="col-12 col-sm-6 col-md" style="padding-left: 0%;">
+                                <a href="#" id="butt-salat">
+                                <div class="single-catagory-area wow fadeInLeftBig" id="salat" data-wow-delay="0.6s">
+                                    <table class="catagory-content">
+                                            <tr >
+                                                <th ><img src="img/core-img/icon-salat.png" alt=""></th>
+                                               <th > 
+                                                   <h6>Salat</h6>
+                                                  
+                                               </th>
+                                            </tr>
+                                    </table>
+                                </div>
+                                 </a>
+                            </div>
+                             <!-- Single Catagory Area -->
+                             <div class="col-12 col-sm-6 col-md"style="padding-left: 0%;">
+                                <a href="#" id="butt-fruhstuck">
+                                <div class="single-catagory-area wow fadeInLeftBig" id="breakfast" data-wow-delay="0.6s">
+                                    <table class="catagory-content">
+                                            <tr >
+                                                <th ><img src="img/core-img/icon-frustuck.png" alt=""></th>
+                                               <th > 
+                                                   
+                                                   <h6>Frühstück</h6>
+                                     
+                                               </th>
+                                            </tr>
+                                    </table>
+                                </div>
+                            </a>
+                            </div>
+                            <!-- Single Catagory Area -->
+                            <div class="col-12 col-sm-6 col-md" style="padding-left: 0%;">
+                                 <a href="#" id="butt-baguettes">
+                                <div class="single-catagory-area wow fadeInLeftBig" id="baguettes" data-wow-delay="0.8s">
+                                    <table class="catagory-content">
+                                            <tr >
+                                               <th ><img src="img/core-img/icon-Baguette.png" alt=""></th>
+                                              <th > 
+                                                 
+                                                  <h6>Baguettes und mehr</h6>
+                                                  
+                                              </th>
+                                            </tr>
+                                    </table>
+                                </div>
+                            </a>
+                            </div>
+                             <!-- Single Catagory Area -->
+                             <div class="col-12 col-sm-6 col-md">
+                                                   <a href="#" id="butt-grill">
+                                <div class="single-catagory-area wow fadeInLeftBig" id="grill" data-wow-delay="0.6s">
+                                    <table class="catagory-content">
+                                            <tr >
+                                                <th ><img src="img/core-img/icon-grill.png" alt=""></th>
+                                               <th style="display:inline-block !important"> 
+                                
+                                                   <h6>Hänchen &amp; Grill</h6>
+                                
+                                               </th>
+                                            </tr>
+                                    </table>
+                                </div>
+                            </a>
+                            </div>
+                            <!-- Single Catagory Area -->
+                            <div class="col-12 col-sm-6 col-md">
+                                <a href="#" id="butt-doner">
+                                <div class="single-catagory-area wow fadeInLeftBig" id="doner" data-wow-delay="0.8s">
+                                    <table class="catagory-content">
+                                            <tr >
+                                                <th ><img src="img/core-img/icon-doner.png" alt=""></th>
+                                               <th > 
+                                                   
+                                                   <h6>Döner &amp; Schawarma</h6>
+                                
+                                               </th>
+                                            </tr>
+                                    </table>
+                                </div>
+                            </a>
+                            </div>
+                            <!-- Single Catagory Area -->
+                            <div class="col-12 col-md">
+                                <a href="#" id="butt-speise">
+                                <div class="single-catagory-area wow fadeInLeftBig" id="speise" data-wow-delay="1s">
+                                    <table class="catagory-content">
+                                           <tr >
+                                                   <th style="display:inline-block !important"><img src="img/core-img/icon-vorspeise.png" alt=""></th>
+                                                  <th > 
+                                                      
+                                                      <h6> Vor & Nachspeise</h6>
+                                
+                                                  </th>
+                                           </tr>
+                                    </table>
+                                </div>
+                            </a>
+                            </div>
+                            <div class="col-12 col-md">
+                                <a href="#" id="butt-drink">
+                                <div class="single-catagory-area wow fadeInLeftBig" id="drinks" data-wow-delay="1s">
+                                    <table class="catagory-content">
+                                           <tr >
+                                                   <th ><img src="img/core-img/icon-drink.png" alt=""></th>
+                                                  <th >
+                                                      <h6>Getränke</h6>
+                                
+                                                  </th>
+                                           </tr>
+                                    </table>
+                                </div>
+                            </a>
+                            </div>                             
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>    
+        </div>
+       
+                        <!--pizza-->
+                        <div class="menu-details col-7    container-menu" id="pizza-content" style=" position: relative; background-image: url(img/bg-img/Pizza.jpg) ;" >
+                              <div class="menu-banner" >
+                                  <h1>Pizza und Gebäck</h1>
+                
+                              </div>
+                              <div>
+                <h2 class="h2">Pizza</h2>
+                              <table class="table table-hover"><tr><th>Speise Nr</th>
+                    <th>Name</th>
+                    <th>Bescheibung</th>
+                    <th>Prise klein</th>
+                    <th>Prise mittlere</th>
+                    <th>Prise party</th>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Margarita</td>
+                            <td>mit käse</td>
+                            <td><button class="btn btn-success" style="cursor: pointer;">4,00€</button></td>
+                            <td><button class="btn btn-success" style="cursor: pointer;">5,00€</button></td>
+                            <td><button class="btn btn-success" style="cursor: pointer;">14,50€</button></td>
+                            
+                        </tr>
+                    </tbody>
+                </tr></table>
+                
+                              </div>
+                
+                            </div>
+                        <!--nuddel-->
+                         <div class="menu-details col-8  container-menu" id="nuddel-content" style="position: relative; background-image: url(img/bg-img/Nudel.jpg); display: none" >
+                              <div class="menu-banner" >
+                                  <h1>Nuddel</h1>
+                
+                              </div>
+                              <div>
+                
+                                    <table class="table table-hover accordion" id="table" >
+                                            <tr><th>Speise Nr</th>
+                                            <th>Name</th>
+                                            <th>Bescheibung</th>
+                                            <th>Prise</th>
+                                        
+                                        </tr>
+                                            <tbody>
+                                                <!--row-->
+                                                <tr>
+                                                    <td>90</td>
+                                                    <td>Pomodora
+                                              </td>
+                                                    <td>mit fr.Tomaten, Paprika, Zwiebeln in Tomatensauce
+                                              </td>
+                                                    <td ><button class="btn btn-success" style="cursor: pointer;">5,50€</button>
+                                              </td>
+                                                </tr>
+                                         <!--end row-->
+                                         <!--row start-->
+                                                <tr id="headingone2">
+                                                    <td>92</td>
+                                                    <td>Bolognese
+                                              </td>
+                                                    <td>Mit Hackfleischsause
+                                              </td>
+                                                    <td><button class="btn btn-success" style="cursor: pointer;">5,50€</button>
+                                                    </td>
+                                                </tr>
+                                         <!--row end-->
+                                          <!--row start-->
+                                          <tr id="headingone2">
+                                            <td>94
+                                            </td>
+                                            <td>Carbenare
+                                            </td>
+                                            <td>mit Turthahnschinken, Parmesan, Ei in Sahnesauce
+                                            </td>
+                                            <td><button class="btn btn-success" style="cursor: pointer;">5,50€</button>
+                                            </td>
+                                          </tr>
+                                        <!--row end-->
+                                                <!--row start-->
+                                            <tr id="headingone2">
+                                              <td>96
+                                              </td>
+                                              <td>Broccoli
+                                        
+                                              </td>
+                                              <td>
+                                                  mit Broccoli, Turthahnschinken in Sahnesauce
+                                                </td>
+                                              <td><button class="btn btn-success" style="cursor: pointer;">5,50€</button>
+                                              </td>
+                                            </tr>
+                                          <!--row end-->
+                                                  <!--row start-->
+                                              <tr id="headingone2">
+                                                  <td>
+                                                      97
+                                                  </td>
+                                                  <td>
+                                                      Vegetaria
+                                                    </td>
+                                                  <td>
+                                                      mit Spinat, Broccoli, Zwiebeln in Sahnsauce
+                                                    </td>
+                                                  <td><button class="btn btn-success" style="cursor: pointer;">
+                                                    5,90€
+                                                  </button>
+                                                  </td>
+                                                </tr>
+                                              <!--row end-->
+                                              <!--row start-->
+                                              <tr id="headingone2">
+                                                  <td>
+                                                      98
+                                                  </td>
+                                                  <td>
+                                                      Arabitta
+                                                    </td>
+                                                  <td>
+                                                      mit fr.Tomaten, Paprika, Zwiebeln, Oliven in Tomatensauce
+                                                    </td>
+                                                  <td><button class="btn btn-success" style="cursor: pointer;">
+                                                    5,50€
+                                                  </button>
+                                                  </td>
+                                                </tr>
+                                              <!--row end-->
+                                              <!--row start-->
+                                              <tr id="headingone2">
+                                                  <td>
+                                                      100
+                                                  </td>
+                                                  <td>
+                                                      La Palma
+                                                    </td>
+                                                  <td>
+                                                      mit Hänchenfleisch, fr.Champignons, curry in Sahnesauce
+                                                    </td>
+                                                  <td><button class="btn btn-success" style="cursor: pointer;">
+                                                    6,90€
+                                                  </button>
+                                                  </td>
+                                                </tr>
+                                              <!--row end-->
+                                              <!--row start-->
+                                              <tr id="headingone2">
+                                                  <td>
+                                                      104
+                                                  </td>
+                                                  <td>
+                                                      Nonna Bettina
+                                                    </td>
+                                                  <td>
+                                                      mit Broccoli, Walnus in Sahnesauce
+                                                    </td>
+                                                  <td><button class="btn btn-success" style="cursor: pointer;">
+                                                    6,10€
+                                                  </button>
+                                                  </td>
+                                                </tr>
+                                              <!--row end-->
+                                                    <!--row start-->
+                                                    <tr id="headingone2">
+                                                        <td>
+                                                            106
+                                                        </td>
+                                                        <td>
+                                                            Portami Cont te
+                                                          </td>
+                                                        <td>
+                                                            mit Spinat, Scampi, Knoblauch in Sahnesauce
+                                                          </td>
+                                                        <td><button class="btn btn-success" style="cursor: pointer;">
+                                                          6,50€
+                                                        </button>
+                                                        </td>
+                                                      </tr>
+                                                    <!--row end-->
+                                                    <!--row start-->
+                                                    <tr id="headingone2">
+                                                        <td>
+                                                            110
+                                                        </td>
+                                                        <td>
+                                                            Alle Panne
+                                                          </td>
+                                                        <td>
+                                                            mit Turthahnschinken, Parmesan, Thunfisch, fr.Champignonos in Tomatensauce
+                                                          </td>
+                                                        <td><button class="btn btn-success" style="cursor: pointer;">
+                                                          6,50€
+                                                        </button>
+                                                        </td>
+                                                      </tr>
+                                                    <!--row end-->
+                                                   <!--row start-->
+                                                   <tr id="headingone2">
+                                                      <td>
+                                                          112
+                                                      </td>
+                                                      <td>
+                                                          Tonno
+                                        
+                                                        </td>
+                                                      <td>
+                                                          mit Thunfisch, Paprika, Zwiebeln in Tomaten, Sahnesauce
+                                        
+                                                        </td>
+                                                      <td><button class="btn btn-success" style="cursor: pointer;">
+                                                        6,50€
+                                                      </button>
+                                                      </td>
+                                                    </tr>
+                                                  <!--row end-->
+                                                  <!--row start-->
+                                                  <tr id="headingone2">
+                                                      <td>
+                                                          114
+                                                      </td>
+                                                      <td>
+                                                          Frutti di Mare
+                                                        </td>
+                                                      <td>
+                                                          mit Meeresfrüchten, Knoblauch in Tomatensauce
+                                                        </td>
+                                                      <td><button class="btn btn-success" style="cursor: pointer;">
+                                                        6,50€
+                                                      </button>
+                                                      </td>
+                                                    </tr>
+                                                  <!--row end-->
+                                            
+                                            </tbody>
+                                        </table>
+                
+                              </div>
+                
+                            </div>
+                        <!--Salat-->
+                         <div class="menu-details col-8  container-menu" id="salat-content" style="background-image: url(img/bg-img/Pizza.jpg) ; display: none" >
+                              <div class="menu-banner" >
+                                  <h1>Salat</h1>
+                
+                              </div>
+                              <div>
+                
+                                  <h1>Hallo all - salat</h1>
+                
+                              </div>
+                
+                        </div>
+                        <!--fruehstuck-->
+                         <div class="menu-details col-8  container-menu" id="fruhstuck-content" style="background-image: url(img/bg-img/Pizza.jpg) ; display: none" >
+                              <div class="menu-banner" >
+                                  <h1>Frühstuck</h1>
+                
+                              </div>
+                              <div>
+                
+                                  <h1>Hallo all - Fruhstuck</h1>
+                
+                              </div>
+                
+                            </div>
+                        <!--baguettes und mehr-->
+                         <div class="menu-details col-8  container-menu" id="baguettes-content" style="background-image: url(img/bg-img/Pizza.jpg) ; display: none" >
+                              <div class="menu-banner" >
+                                  <h1>Baguettes</h1>
+                
+                              </div>
+                              <div>
+                
+                                  <h1>Hallo all - buguettes</h1>
+                
+                              </div>
+                
+                            </div>
+                        <!--haenchen und grill-->
+                         <div class="menu-details col-8  container-menu" id="grill-content" style="background-image: url(img/bg-img/Pizza.jpg) ; display: none" >
+                              <div class="menu-banner" >
+                                  <h1>Hänchen &amp; Grill</h1>
+                
+                              </div>
+                              <div>
+                
+                                  <h1>Hallo all - Nuddel</h1>
+                
+                              </div>
+                
+                            </div>
+                        
+                        <!--Doener-->
+                         <div class="menu-details col-8  container-menu" id="doner-content" style="background-image: url(img/bg-img/Pizza.jpg) ; display: none" >
+                              <div class="menu-banner" >
+                                  <h1>Döner &amp; Schawarma</h1>
+                
+                              </div>
+                              <div>
+                
+                                  <h1>Hallo all - Nuddel</h1>
+                
+                              </div>
+                
+                            </div>
+                        <!--vor/nachspeise-->
+                         <div class="menu-details col-8  container-menu" id="speise-content" style="background-image: url(img/bg-img/Pizza.jpg) ; display: none" >
+                              <div class="menu-banner" >
+                                  <h1>Vor &amp; Nachspeise</h1>
+                
+                              </div>
+                              <div>
+                
+                                  <h1>Hallo all - Nuddel</h1>
+                
+                              </div>
+                
+                            </div>
+                        <!--Getaenke-->
+                         <div class="menu-details col-8  container-menu" id="drink-content" style="background-image: url(img/bg-img/Pizza.jpg) ; display: none" >
+                              <div class="menu-banner" >
+                                  <h1>Getränke</h1>
+                
+                              </div>
+                              <div>
+                
+                                  <h1>Hallo all - Nuddel</h1>
+                
+                              </div>
+                
+                            </div>
+                        
+               
+      
+      <!--catagory area--> 
+     
+
+
+<footer class="dorne-footer-area col-12" style="margin-top:10%;  position: relative;z-index: 999999999;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 d-md-flex align-items-center justify-content-between">
+                    <div class="footer-text">
+                        <p>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Malek Zedan <i aria-hidden="true"></i> by <a href="http://www.wd-de.com" target="_blank">Walid Online</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                    <div class="footer-social-btns">
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-haspopup="true"></i></a>
+                        <a href="#"><i class="fa fa-facebook" aria-haspopup="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap-4 js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/others/plugins.js"></script>
+    <!-- Active JS -->
+    <script src="js/active.js"></script>
+</body>
+
+</html>
